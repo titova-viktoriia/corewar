@@ -29,5 +29,5 @@ void		op_ldi(t_process *process, t_corewar *corewar)
 	result = get_int32_from_arena(corewar->arena,
 		process->pc + ((argument_1 + argument_2) % IDX_MOD),
 		DIR_SIZE_2);
-	process->registers[register_number] = result;
+	process->registers[register_number - 1] = result;
 }

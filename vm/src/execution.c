@@ -24,8 +24,7 @@ void		reduce_cycles_to_die(t_corewar *corewar)
 
 void		execution(t_corewar *corewar)
 {
-	while (corewar->processes_number != 0)
-	{
+	while (corewar->processes_number != 0) {
 		if ((corewar->dump_flag == 1 || corewar->d_flag == 1) &&
 			corewar->dump_cycles == corewar->total_cycles_number)
 		{
@@ -34,6 +33,11 @@ void		execution(t_corewar *corewar)
 		}
 		corewar->total_cycles_number++;
 		corewar->current_cycle++;
+
+		if (corewar->total_cycles_number == 11005 ||
+			corewar->total_cycles_number == 2725)
+			ft_printf("CYCLE: %d .\n", corewar->total_cycles_number);
+
 		check_all_processes(corewar);
 		if (corewar->current_cycle == corewar->cycles_to_die
 			|| corewar->cycles_to_die <= 0)

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="corewar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vika/Рабочий стол/git_corewar/vm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vika/Рабочий стол/git_corewar/vm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vika/Рабочий стол/git_corewar/vm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="corewar">
+				<Option output="/home/vika/Рабочий стол/git_corewar/vm/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vika/Рабочий стол/git_corewar/vm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/libftprintf"/>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/includes"/>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs"/>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft"/>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/includes"/>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/operations"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="corewar/fast">
+				<Option output="/home/vika/Рабочий стол/git_corewar/vm/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vika/Рабочий стол/git_corewar/vm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/libftprintf"/>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/includes"/>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs"/>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft"/>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/includes"/>
+					<Add directory="/home/vika/Рабочий стол/git_corewar/vm/operations"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/vika/Рабочий\ стол/git_corewar/vm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/includes/corewar.h">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/includes/op.h">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/count_of_second_part_for_float.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/fill_a_string_with_char.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/find_symbol.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_count_of_digits.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_count_of_digits_llu.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_itoa_from_10_to_16.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_new_arr_c.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_new_arr_i.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_b.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_c.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_d.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_e.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_f.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_f_and_e_with_flags.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_mas_c.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_mas_i.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_o.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_p.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_percent.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_s.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_u.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_printf_x.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_putchar_with_counter.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/ft_putstr_with_counter.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/get_float_number.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/get_parametr_pole.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/itobufferdata.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/itobufferdata_llu.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_atoi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_atoi_long_long.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_bzero.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_isalnum.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_isalpha.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_isascii.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_isdigit.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_isprint.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_iswhite.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_itoa.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_lstadd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_lstadd_end.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_lstdel.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_lstdelone.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_lstiter.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_lstmap.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_lstnew.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_memalloc.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_memccpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_memchr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_memcmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_memcpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_memdel.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_memmove.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_memset.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_putchar.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_putchar_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_putendl.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_putendl_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_putnbr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_putnbr_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_putstr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_putstr_fd.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strcat.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strchr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strclr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strcmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strcpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strdel.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strdup.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strequ.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_striter.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_striteri.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strjoin.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strlcat.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strlen.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strmap.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strmapi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strncat.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strncmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strncpy.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strnequ.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strnew.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strnstr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strrchr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strsplit.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strstr.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strsub.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_strtrim.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_tolower.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/ft_toupper.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/get_next_line.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/parse_and_print.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/print_common.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/print_in_while.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/print_pole_and_bufferdata.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/add.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/aff.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/and.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/arena_initialization.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/args_validation.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/check_operations.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/check_processes.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/execution.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/fork.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/help_functions.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/help_operations.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/help_operations_2.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/initialization.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/ld.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/ldi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/lfork.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/live.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/lld.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/lldi.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/main_corewar.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/or.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/player_vaidation_2.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/players_validation.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/print.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/proccess_operations.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/process_initialization.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/st.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/sti.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/sub.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/terminate.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/xor.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/src/zjmp.c">
+			<Option target="corewar"/>
+		</Unit>
+		<Unit filename="/home/vika/Рабочий стол/git_corewar/vm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
