@@ -17,6 +17,9 @@ int32_t	get_value_from_register(t_corewar *corewar, t_process *process, int pc)
 	int8_t		register_number;
 
 	register_number = get_one_byte(corewar->arena, pc);
+	//debug
+	//ft_printf("reg_num - %d\n", register_number );
+	//
 	return (process->registers[register_number - 1]);
 }
 

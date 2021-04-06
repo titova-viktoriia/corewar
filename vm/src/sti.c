@@ -28,4 +28,6 @@ void		op_sti(t_process *process, t_corewar *corewar)
 	argument_2 = get_int32_t_argument_2(corewar, process, 2, current_pc);
 	set_int32_t_value_on_arena(register_value,
 		process->pc + ((argument_1 + argument_2) % IDX_MOD), corewar);
+	//debug
+	ft_printf("STI: arg1 - %d, arg2 - %d, reg_val - %d\n", argument_1, argument_2, register_value);
 }

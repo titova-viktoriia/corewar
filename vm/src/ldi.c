@@ -28,6 +28,8 @@ void		op_ldi(t_process *process, t_corewar *corewar)
 	register_number = get_one_byte(corewar->arena, current_pc);
 	result = get_int32_from_arena(corewar->arena,
 		process->pc + ((argument_1 + argument_2) % IDX_MOD),
-		DIR_SIZE_2);
+		DIR_SIZE_4);
 	process->registers[register_number - 1] = result;
+	ft_printf("LDI: arg1 - %d, arg2 - %d, reg_val - %d, result - %d\n", argument_1, argument_2, register_number, result);
+
 }

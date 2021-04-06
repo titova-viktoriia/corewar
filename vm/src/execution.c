@@ -34,6 +34,7 @@ void		execution(t_corewar *corewar)
 		corewar->total_cycles_number++;
 		corewar->current_cycle++;
 
+		//debug
 		if (corewar->total_cycles_number == 11005 ||
 			corewar->total_cycles_number == 2725)
 			ft_printf("CYCLE: %d .\n", corewar->total_cycles_number);
