@@ -76,7 +76,15 @@ stdlib.h
 get_next_line.h
 /home/vika/Рабочий стол/git_corewar/vm/libftprintf/srcs/libft/includes/get_next_line.h
 
-/home/vika/Рабочий стол/git_corewar/vm/src/ldi.c
+/home/vika/Рабочий стол/git_corewar/vm/src/help_operations.c
+../includes/corewar.h
+/home/vika/Рабочий стол/git_corewar/vm/includes/corewar.h
+
+/home/vika/Рабочий стол/git_corewar/vm/src/help_operations_2.c
+../includes/corewar.h
+/home/vika/Рабочий стол/git_corewar/vm/includes/corewar.h
+
+/home/vika/Рабочий стол/git_corewar/vm/src/lfork.c
 ../includes/corewar.h
 /home/vika/Рабочий стол/git_corewar/vm/includes/corewar.h
 

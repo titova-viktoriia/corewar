@@ -21,7 +21,7 @@ void		op_lfork(t_process *process, t_corewar *corewar)
 	current_pc = process->pc + 1;
 	argument = get_int32_from_arena(corewar->arena, current_pc, DIR_SIZE_2);
 	new_process = duplicate_process(process,
-						corewar->process_id_counter++, corewar);
+						++(corewar->process_id_counter), corewar);
 	new_process->pc = get_pc(process->pc + argument);
 	new_process->next = corewar->processes;
 	corewar->processes = new_process;

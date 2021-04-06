@@ -18,6 +18,10 @@ void		check_if_process_is_died(t_process *process, t_corewar *corewar)
 		corewar->total_cycles_number - process->last_live_operation_cycle >=
 		corewar->cycles_to_die)
 	{
+		//debug
+		ft_printf("CYCLE FOR DEAD: %d. ", corewar->total_cycles_number);
+		ft_printf("DELETE PROCESS: %d \n", process->uid);
+		//
 		corewar->processes = delete_process(process->uid, corewar->processes);
 		corewar->processes_number--;
 	}

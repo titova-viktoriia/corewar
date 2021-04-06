@@ -33,7 +33,7 @@ int32_t		get_int32_from_arena(const uint8_t *arena, int pc, int size)
 	sign = 0;
 	int32_format = 0;
 	current_pc = get_pc(pc);
-	if (arena[pc] & 0x80)
+	if (arena[pc % MEM_SIZE] & 0x80)
 		sign = 1;
 	while (size)
 	{

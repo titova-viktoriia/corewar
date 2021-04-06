@@ -19,6 +19,9 @@ void		op_zjmp(t_process *process, t_corewar *corewar)
 
 	current_pc = process->pc + 1;
 	value = get_int32_from_arena(corewar->arena, current_pc, DIR_SIZE_2);
-	if (process->flag_carry)
+	if (process->flag_carry) {
+		ft_printf(" OK: %d \n", value);
 		process->pc_buffer = get_pc(process->pc + (value % IDX_MOD));
+	}
+
 }
