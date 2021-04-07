@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/06 17:12:27 by hdeckard          #+#    #+#             */
-/*   Updated: 2021/01/06 18:25:33 by hdeckard         ###   ########.fr       */
+/*   Updated: 2021/04/07 21:26:04 by cport            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,8 @@ void		reduce_cycles_to_die(t_corewar *corewar)
 
 void		execution(t_corewar *corewar)
 {
-	while (corewar->processes_number != 0) {
+	while (corewar->processes_number != 0)
+	{
 		if ((corewar->dump_flag == 1 || corewar->d_flag == 1) &&
 			corewar->dump_cycles == corewar->total_cycles_number)
 		{
@@ -33,12 +34,6 @@ void		execution(t_corewar *corewar)
 		}
 		corewar->total_cycles_number++;
 		corewar->current_cycle++;
-
-		//debug
-		//if (corewar->total_cycles_number == 14765 ||
-		//	corewar->total_cycles_number == 14760)
-			//ft_printf("CYCLE: %d .\n", corewar->total_cycles_number);
-
 		check_all_processes(corewar);
 		if (corewar->current_cycle == corewar->cycles_to_die
 			|| corewar->cycles_to_die <= 0)
@@ -46,7 +41,4 @@ void		execution(t_corewar *corewar)
 			check_died_processes(corewar);
 		}
 	}
-
-	//debug
-	//ft_printf("TOTAL CYCLES: %d \n", corewar->total_cycles_number);
 }

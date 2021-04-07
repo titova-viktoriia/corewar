@@ -6,7 +6,7 @@
 /*   By: hdeckard <hdeckard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/06 17:12:27 by hdeckard          #+#    #+#             */
-/*   Updated: 2021/01/06 18:25:33 by hdeckard         ###   ########.fr       */
+/*   Updated: 2021/04/07 21:29:41 by cport            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,4 @@ void		op_ldi(t_process *process, t_corewar *corewar)
 		process->pc + ((argument_1 + argument_2) % IDX_MOD),
 		DIR_SIZE_4);
 	process->registers[register_number - 1] = result;
-	//ft_printf("LDI: arg1 - %d, arg2 - %d, reg_val - %d, result - %d\n", argument_1, argument_2, register_number, result);
-
 }
