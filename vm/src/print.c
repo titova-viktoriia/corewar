@@ -52,6 +52,7 @@ void		hello_corewar(t_corewar *corewar)
 	i = 0;
 	while (i < corewar->players_count)
 	{
+		ft_printf("Introducing contestants...\n");
 		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n",
 			corewar->players[i].id,
 			corewar->players[i].size,
