@@ -35,9 +35,9 @@ void		execution(t_corewar *corewar)
 		corewar->current_cycle++;
 
 		//debug
-		if (corewar->total_cycles_number == 14765 ||
-			corewar->total_cycles_number == 14760)
-			ft_printf("CYCLE: %d .\n", corewar->total_cycles_number);
+		//if (corewar->total_cycles_number == 14765 ||
+		//	corewar->total_cycles_number == 14760)
+			//ft_printf("CYCLE: %d .\n", corewar->total_cycles_number);
 
 		check_all_processes(corewar);
 		if (corewar->current_cycle == corewar->cycles_to_die
@@ -48,5 +48,5 @@ void		execution(t_corewar *corewar)
 	}
 
 	//debug
-	ft_printf("TOTAL CYCLES: %d \n", corewar->total_cycles_number);
+	//ft_printf("TOTAL CYCLES: %d \n", corewar->total_cycles_number);
 }

@@ -19,8 +19,8 @@ void		check_if_process_is_died(t_process *process, t_corewar *corewar)
 		corewar->cycles_to_die)
 	{
 		//debug
-		ft_printf("CYCLE FOR DEAD: %d. ", corewar->total_cycles_number);
-		ft_printf("DELETE PROCESS: %d \n", process->uid);
+		//ft_printf("CYCLE FOR DEAD: %d. ", corewar->total_cycles_number);
+		//ft_printf("DELETE PROCESS: %d \n", process->uid);
 		//
 		corewar->processes = delete_process(process->uid, corewar->processes);
 		corewar->processes_number--;
@@ -61,8 +61,8 @@ void		check_process(t_process *process, t_corewar *corewar)
 			if (process->args_validation == 1) {
 
 				//debug
-				ft_printf("Cycle %d, Process %d, Operation %s\n",
-						  corewar->total_cycles_number, process->uid, g_ops[process->operations_code - 1].operation_name  );
+				//ft_printf("Cycle %d, Process %d, Operation %s\n",
+				//		  corewar->total_cycles_number, process->uid, g_ops[process->operations_code - 1].operation_name  );
 
 				g_ops[process->operations_code - 1].function(process, corewar);
 

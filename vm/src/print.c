@@ -52,9 +52,11 @@ void		hello_corewar(t_corewar *corewar)
 	i = 0;
 	while (i < corewar->players_count)
 	{
-		ft_printf("Player №%d, Name - \"%s\", weighing %d bytes, (\"%s\") !\n",
-			corewar->players[i].id, corewar->players[i].name,
-			corewar->players[i].size, corewar->players[i].comment);
+		ft_printf("* Player %d, weighing %d bytes, \"%s\" (\"%s\") !\n",
+			corewar->players[i].id,
+			corewar->players[i].size,
+			corewar->players[i].name,
+			corewar->players[i].comment);
 		i++;
 	}
 }
@@ -67,5 +69,5 @@ void		print_winner(t_corewar *corewar)
 	player = corewar->last_live_player;
 	name = corewar->players[player - 1].name;
 	if (corewar->processes_number == 0)
-		ft_printf("Player № %d, \"%s\", won!\n", player, name);
+		ft_printf("Contestant %d, \"%s\", has won !\n", player, name);
 }

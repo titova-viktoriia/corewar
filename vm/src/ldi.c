@@ -30,6 +30,6 @@ void		op_ldi(t_process *process, t_corewar *corewar)
 		process->pc + ((argument_1 + argument_2) % IDX_MOD),
 		DIR_SIZE_4);
 	process->registers[register_number - 1] = result;
-	ft_printf("LDI: arg1 - %d, arg2 - %d, reg_val - %d, result - %d\n", argument_1, argument_2, register_number, result);
+	//ft_printf("LDI: arg1 - %d, arg2 - %d, reg_val - %d, result - %d\n", argument_1, argument_2, register_number, result);
 
 }
